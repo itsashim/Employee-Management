@@ -21,13 +21,13 @@ The EMS program is a console-based application that allows users to:
     This class contains all the functionalities of the program.
 
       ### Private Members
-      # employees: A vector of Employee objects to store the employee records.
+      #### employees: A vector of Employee objects to store the employee records.
       findEmployeeById(int id): A helper function to search for an employee by their ID. Returns the index of the employee or -1 if not found.
       Public Methods
-      # addEmployee(): Prompts the user to input employee details and adds the employee to the system after validation.
-      # displayEmployees(): Displays all employees in a formatted list. Shows a message if no employees are present.
-      # deleteEmployee(): Deletes an employee based on their ID. Notifies the user if the ID is invalid or not found.
-      # menu(): Displays the main menu and handles user choices to execute various operations.
+      #### addEmployee(): Prompts the user to input employee details and adds the employee to the system after validation.
+      #### displayEmployees(): Displays all employees in a formatted list. Shows a message if no employees are present.
+      #### deleteEmployee(): Deletes an employee based on their ID. Notifies the user if the ID is invalid or not found.
+      #### menu(): Displays the main menu and handles user choices to execute various operations.
 
    
 3. Main Function
@@ -72,25 +72,26 @@ Scalability:
 Enter your choice:
 
 
-## Adding an Employee
+### Adding an Employee
 
-  Enter Employee ID (positive integer): 101
-  Enter Employee Name: John Doe
-  Enter Employee Position: Manager
-  Enter Employee Salary (positive number): 50000
-  Employee added successfully!
-
-
-## Displaying Employees
---- Employee List ---
---------------------------------------------
-ID      Name            Position        Salary
---------------------------------------------
-101     John Doe        Manager         50000
---------------------------------------------
+  Enter Employee ID (positive integer): 101 \n
+  Enter Employee Name: John Doe \n
+  Enter Employee Position: Manager \n
+  Enter Employee Salary (positive number): 50000 \n
+  Employee added successfully! \n
 
 
-## Deleting an Employee
+### Displaying Employees
+
+    --- Employee List ---
+    --------------------------------------------
+    ID      Name            Position        Salary
+    --------------------------------------------
+    101     John Doe        Manager         50000
+    --------------------------------------------
+
+
+### Deleting an Employee
 
   Enter Employee ID to delete: 101
   Employee deleted successfully!
